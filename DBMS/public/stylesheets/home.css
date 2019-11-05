@@ -1,0 +1,98 @@
+*{
+	font-family: montserrat;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	background: rgb(245, 244, 184); 
+	background: -webkit-linear-gradient(to bottom, rgb(145, 145, 128), rgb(245, 244, 184));
+	background: linear-gradient(to bottom, rgb(145, 145, 128), rgb(245, 244, 184)); 
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+#topbar{
+	position: fixed;
+	padding-top: 5px;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	display: inline-block;
+	background-color: rgb(245, 244, 184);
+}
+
+#loginregis a{
+	text-decoration: none;
+	color: rgb(145, 145, 128);
+}
+
+#loginregis a:hover{
+	color: rgb(82, 82, 67);
+}
+
+#homebutton{
+	width: 80%;
+	float: left;
+	display: inline-block;
+}
+
+#homebutton img{
+	width: 100px;
+	height: 25px; 
+}
+
+#loginregis{
+	text-align: right;
+	font-size: 20px;
+}
+
+#navbar{
+	left: 0;
+	top: 0;
+	position: fixed;
+	padding-top: 60px;
+	font-size: 20px;
+	width: 100%;
+	background-color: rgb(245, 244, 184);
+	border-bottom: 0.5px solid rgb(201, 201, 177);
+}
+
+#newcar{
+	display: inline-block;
+}
+
+#usedcar{
+	display: inline-block;
+}
+
+#sellcar{
+	display: inline-block;
+}
+
+#navbar a{
+	text-decoration: none;
+	color: rgb(145, 145, 128);
+}
+
+#navbar a:hover{
+	color: rgb(82, 82, 67);
+}
+
+#bod{
+	width: 100%;
+	margin: auto;
+	padding-top: 150px;
+	text-align: center;
+}
+
+#card{
+	margin: 10px;
+	padding-top: 100px;
+	background-color: rgb(201, 201, 177);
+	width: 32%;
+	height: 400px;
+}
